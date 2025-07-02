@@ -1,10 +1,14 @@
 package com.perfulandia.vendedores.dto;
 
-import lombok.Data;
+import org.springframework.hateoas.RepresentationModel;
+import lombok.*;
 
 @Data
-public class VendedoresDTO {
+@NoArgsConstructor
+@AllArgsConstructor
+public class VendedoresDTO extends RepresentationModel<VendedoresDTO>{
     private Integer id;
     private String sucursal;
     private Double metaMensual;
-}
+} 
+
