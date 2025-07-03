@@ -12,7 +12,7 @@
     </parent>
 
     <groupId>com.perfulandia</groupId>
-    <artifactId>soporteticket</artifactId>
+    <artifactId>vendedores</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>vendedores</name>
     <description>vendedoredasfs</description>
